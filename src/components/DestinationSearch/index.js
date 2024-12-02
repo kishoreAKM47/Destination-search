@@ -7,7 +7,7 @@ class DestinationSearch extends Component {
   state = {searchInput: ''}
 
   onSearchInput = event => {
-    this.ssetState({searchInput: event.target.value})
+    this.setState({searchInput: event.target.value})
   }
 
   render() {
