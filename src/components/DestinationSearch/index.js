@@ -7,7 +7,7 @@ class DestinationSearch extends Component {
   state = {searchInput: ''}
 
   onSearchInput = event => {
-    this.state({searchInput: event.target.value})
+    this.ssetState({searchInput: event.target.value})
   }
 
   render() {
@@ -18,7 +18,7 @@ class DestinationSearch extends Component {
     )
     return (
       <div className="app-container">
-        <h1>Destination Search</h1>
+        <h1 className="heading">Destination Search</h1>
         <div className="search-box">
           <input
             type="search"
