@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.place-image {
+  height: 175px;
+  width: 200px;
+}
+.place-card {
+  list-style-type: none;
+  margin-left: 15px;
+  margin-top: 10px;
+}
